@@ -1,3 +1,4 @@
+            ##### This program was first created for a bootcamp coding challenge before i decided to create a GUI for it ######
 
 # create exam registration function
 # initialise while statment to handle file i/o with error checks
