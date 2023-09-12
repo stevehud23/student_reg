@@ -67,9 +67,11 @@ Before running the Exam Registration App, you need to have the following prerequ
 
 The Exam Registration App provides a simple and user-friendly interface for registering students, managing registration logs, and printing registration forms. When you launch the app, you will see the following components:
 
+<img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg1.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+
 *   **Register Students Button**: Click this button to open the registration form for entering student information.
     
-*   **Options Button**: Access the options menu to view, clear registration logs, view error logs, and clear error logs.
+*   **Options Button**: Access the options menu to view, clear registration logs, view error logs, and clear error logs.         
     
 *   **Output Label**: This label displays messages and information about the registration process.
     
@@ -77,6 +79,8 @@ The Exam Registration App provides a simple and user-friendly interface for regi
     
 
 ### Registering Students <a name="registering-students"></a>
+
+<img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg2.png " alt="image shows menu options of register app" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg3.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
 
 1.  Click the "Register Students" button to open the registration form.
     
@@ -92,18 +96,22 @@ The Exam Registration App provides a simple and user-friendly interface for regi
 
 ### Options Menu <a name="options-menu"></a>
 
+<img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg4.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+
 Click the "Options" button to access the options menu, which provides the following features:
 
-*   **View Registration Log**: Opens a popup displaying the registration log. You can scroll through the log to view registered students.
+*   **View Registration Log**: Opens a popup displaying the registration log. You can scroll through the log to view registered students.<img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg5.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
     
 *   **Clear Registration Log**: Clears the registration log, removing all previously registered students.
     
-*   **View Error Log**: Opens a popup displaying the error log. You can scroll through the log to view any error messages.
+*   **View Error Log**: Opens a popup displaying the error log. You can scroll through the log to view any error messages. <img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg6.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
     
 *   **Clear Error Log**: Clears the error log, removing all previous error messages.
     
 
 ### Printing Registration Forms <a name="printing-registration-forms"></a>
+
+<img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg7.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
 
 1.  Click the "Print Registration Form" button to generate and print registration forms for all registered students.
     
