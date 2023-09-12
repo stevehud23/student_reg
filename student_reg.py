@@ -1,4 +1,4 @@
-            ##### This program was first created for a bootcamp coding challenge before i decided to create a GUI for it ######
+            ##### This program was first created for a bootcamp coding challenge before i decided to create a GUI for it.  The GUI files can be found in the registration folder ######
 
 # create exam registration function
 # initialise while statment to handle file i/o with error checks
