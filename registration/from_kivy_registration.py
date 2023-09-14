@@ -9,6 +9,7 @@ from kivy.uix.modalview import ModalView
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 import os
+import re  # Import the regular expressions module
 
 class ExamRegistrationApp(App):
     def build(self):
@@ -68,13 +69,20 @@ class ExamRegistrationApp(App):
             self.output_label.text = 'Please enter both a valid name and student ID.'
             return
 
+        # Use regular expressions to validate the name input
+        if not re.match("^[A-Za-z]*$", name_input_text):
+            error_message = 'Invalid input. Name should only contain letters.\n'
+            self.write_to_error_log(error_message)
+            self.output_label.text = error_message
+            return
+
         try:
             student_id = int(student_input_text)
             if student_id in self.registered_students:
-                self.output_label.text = f'Student with ID {student_id} is already registered.'
+                self.output_label.text = f'Student with ID: {student_id} is already registered.'
             else:
                 self.registered_students[student_id] = name_input_text  # Add to the dictionary of registered students
-                self.output_label.text = f'Student {name_input_text} with ID {student_id} registered successfully.'
+                self.output_label.text = f'Student Name: {name_input_text.upper()}\nStudent ID: {student_id}\n\nregistered successfully.'
 
                 # Write the registration info to the "reg_form.txt" file only if it doesn't already exist
                 with open('reg_form.txt', 'a', encoding='utf-8') as reg_file:
