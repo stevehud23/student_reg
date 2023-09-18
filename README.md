@@ -28,6 +28,7 @@ Table of Contents
 *   External data sources
 *   Storing and Retrieving data
 *   Edge cases 'Error Handling'
+<a name="version-2"></a>
   
 Exam Registration App Documentation
 ===================================
@@ -178,8 +179,6 @@ The Exam Registration App is open-source and released under the [MIT License](LI
 Thank you for using the Exam Registration App!
 
 
- <a name="version-3"></a>
-
  ### GUI version 2.0:  [student_reg_GUI_V2.py](https://github.com/stevehud23/student_reg/blob/main/Student_reg_GUI_V2/student_reg_GUI_V2.py)
 *   This version contains an updated GUI engineered for better functionalty.
 *   Basic level GUI creation
@@ -191,6 +190,7 @@ Thank you for using the Exam Registration App!
 *   External data sources
 *   Storing and Retrieving data
 *   Edge cases 'Error Handling'
+<a name="version-3"></a>
 
 Exam Registration App Documentation
 ===================================
@@ -339,7 +339,7 @@ Contributions to the Exam Registration App are welcome! If you have ideas for ne
 The Exam Registration App is open-source and released under the [MIT License](LICENSE). You are free to use, modify, and distribute the application as per the terms of the license.
 
 Thank you for using the Exam Registration App!
- <a name="version-2"></a>
+
 
 
 ---
