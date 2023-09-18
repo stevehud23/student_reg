@@ -338,7 +338,7 @@ Before running the Exam Registration App, you need to have the following prerequ
 
 The Exam Registration App provides a simple and user-friendly interface for registering students, managing registration logs, and printing registration forms. When you launch the app, you will see the following components:
 
-<img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg1.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+<img src="https://github.com/stevehud23/student_reg/blob/main/reg_gui_v2_5.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
 
 *   **Register Students Button**: Click this button to open the registration form for entering student information.
     
