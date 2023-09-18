@@ -253,6 +253,7 @@ Thank you for using the Exam Registration App!
 
 
  ### GUI version 2.0:  [student_reg_GUI_V2.py](https://github.com/stevehud23/student_reg/blob/main/Student_reg_GUI_V2/student_reg_GUI_V2.py)
+<a name="version-3"></a> 
 *   This version contains an updated GUI engineered for better functionalty.
 *   Basic level GUI creation
 *   OOP's
@@ -263,7 +264,7 @@ Thank you for using the Exam Registration App!
 *   External data sources
 *   Storing and Retrieving data
 *   Edge cases 'Error Handling'
-<a name="version-3"></a>
+
 
 Exam Registration App Documentation
 ===================================
