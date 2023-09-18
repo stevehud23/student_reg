@@ -16,6 +16,10 @@ Table of Contents
 4.  [Troubleshooting](#troubleshooting)
 5.  [Contributing](#contributing)
 6.  [License](#license)
+7.  [Future Updates And Timeline](#future-updates-and-timeline)
+    *   [Version 1](#version-1)
+    *   [Version 2](#version-2)
+    *   [Version 3](#version-3)
 
 1\. Introduction <a name="introduction"></a>
 --------------------------------------------
@@ -141,6 +145,34 @@ Contributions to the Exam Registration App are welcome! If you have ideas for ne
 The Exam Registration App is open-source and released under the [MIT License](LICENSE). You are free to use, modify, and distribute the application as per the terms of the license.
 
 Thank you for using the Exam Registration App!
+
+7\. Future Updates And Timeline <a name="future-updates-and-timeline"></a>
+----------------------------------
+### Version 1:  [student_reg.py](https://github.com/stevehud23/student_reg/blob/main/student_reg.py)
+*   This version contains a basic non GUI engineered to show the use of working with.
+*   External data sources
+*   Storing and Retrieving data
+*   Edge cases 'Error Handling'
+ <a name="version-1"></a>
+
+### Version 2:  [from_kivy_registration.py](https://github.com/stevehud23/student_reg/blob/main/registration/from_kivy_registration.py)
+*   This version contains a basic GUI engineered to show the use of working with.
+*   Basic level GUI creation
+*   OOP's
+*   Classe's
+*   Function's
+*   Inheritance
+*   Creating and printing a custom registry form
+*   External data sources
+*   Storing and Retrieving data
+*   Edge cases 'Error Handling'
+ <a name="version-2"></a>
+
+
+
+
+
+
 
 ---
 
