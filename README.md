@@ -90,9 +90,8 @@ For any questions or issues, refer to the error logs or seek assistance.
 
 Happy registration!
 
-
-### Version 2:  [from_kivy_registration.py](https://github.com/stevehud23/student_reg/blob/main/registration/from_kivy_registration.py)
 <a name="version-2"></a>
+### Version 2:  [from_kivy_registration.py](https://github.com/stevehud23/student_reg/blob/main/registration/from_kivy_registration.py)
 *   This version contains a basic GUI engineered to show the use of working with.
 *   Basic level GUI creation
 *   OOP's
