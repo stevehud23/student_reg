@@ -47,7 +47,7 @@ Table of Contents
 4.  [Troubleshooting](#troubleshooting-1)
 5.  [Contributing](#contributing-1)
 6.  [License](#license-1)
-7.  [Future Updates And Timeline](#future-updates-and-timeline)
+7.  [Future Updates And Timeline](#future-updates-and-timeline-1)
     *   [Version 1 Documentation](#version-1)
     *   [Version 2 Documentation](#version-2)
     *   [Version 3 GUI Version 2.0 Documentation](#version-3)
@@ -198,7 +198,7 @@ Exam Registration App Documentation
 Table of Contents
 -----------------
 
-1.  [Introduction](#introduction)
+1.  [Introduction](#introduction-2)
 2.  [Getting Started](#getting-started)
     *   [Prerequisites](#prerequisites)
     *   [Installation](#installation)
