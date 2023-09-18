@@ -58,7 +58,7 @@ Follow these steps to use the Exam Registration System:
 - The student IDs will be stored in the "reg_form.txt" file along with a signature line for each student.
 
 ### Step 3: Access Options
-<img src="https://github.com/stevehud23/student_reg/blob/main/reg_v1_2.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+<img src="https://github.com/stevehud23/student_reg/blob/main/reg_v1_1.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
 - After completing the registration, you will have the following options:
     - Option 1: Open and view the "reg_form.txt" file.
     - Option 2: Clear the contents of the "reg_form.txt" file.
