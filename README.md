@@ -278,7 +278,7 @@ The Exam Registration App provides a simple and user-friendly interface for regi
 
 ### Registering Students <a name="registering-students"></a>
 
-<img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg2.png " alt="image shows menu options of register app" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg3.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+<img src="github.com/stevehud23/student_reg/blob/main/Student_reg_GUI_V2/GUI_V2.0/reg_gui_v2.png" style="width: 25%; height: auto;"><img src="https://github.com/stevehud23/student_reg/blob/main/ex_reg3.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
 
 1.  Click the "Register Students" button to open the registration form.
     
