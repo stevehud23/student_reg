@@ -8,14 +8,88 @@ Table of Contents
     *   [Version 1 Documentation](#version-1)
     *   [Version 2 Documentation](#version-2)
     *   [Version 3 GUI Version 2.0 Documentation](#version-3)
-
+ <a name="version-1"></a>
 ----------------------------------
 ### Version 1:  [student_reg.py](https://github.com/stevehud23/student_reg/blob/main/student_reg.py)
 *   This version contains a basic non GUI engineered to show the use of working with.
 *   External data sources
 *   Storing and Retrieving data
 *   Edge cases 'Error Handling'
- <a name="version-1"></a>
+
+# Exam Registration System
+
+## Introduction
+The Exam Registration System is a Python program that allows users to register students for an exam. It provides an easy and efficient way to handle student registration, error checking, and file management. This documentation provides an overview of the code structure and instructions on how to use the program.
+
+## Code Overview
+The code is divided into three main functions:
+
+### 1. `exam_reg()`
+<img src="https://github.com/stevehud23/student_reg/blob/main/reg_v1.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+- This function handles the core functionality of student registration.
+- It takes user input for the number of students to register (`name_count`).
+- It performs error checks on user input, ensuring that the number of students is at least 2.
+- It allows students to enter their IDs and stores them in the "reg_form.txt" file.
+- It provides error handling for invalid student IDs.
+- It offers options for users to access various functionalities.
+
+### 2. `options()`
+<img src="https://github.com/stevehud23/student_reg/blob/main/reg_v1_3.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+- This function provides a menu of options for users to choose from.
+- Users can open and view the "reg_form.txt" and "error_log.txt" files.
+- Users can clear the contents of the "reg_form.txt" and "error_log.txt" files.
+- Users can reload the student registration process.
+- It handles user input and error checking for valid options.
+
+### 3. `main()`
+- The `main()` function calls the `exam_reg()` function to initiate the program.
+
+## How to Use
+Follow these steps to use the Exam Registration System:
+
+### Step 1: Run the Program
+<img src="https://github.com/stevehud23/student_reg/blob/main/reg_v1.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+- Run the Python script containing the code.
+- The program will start, and you will be prompted to enter the number of students to register.
+
+### Step 2: Register Students
+- Enter the number of students you want to register.
+- You will be prompted to enter the student IDs for each student.
+- The student IDs will be stored in the "reg_form.txt" file along with a signature line for each student.
+
+### Step 3: Access Options
+<img src="https://github.com/stevehud23/student_reg/blob/main/reg_v1_2.png " alt="image shows menu options of register app" style="width: 25%; height: auto;">
+- After completing the registration, you will have the following options:
+    - Option 1: Open and view the "reg_form.txt" file.
+    - Option 2: Clear the contents of the "reg_form.txt" file.
+    - Option 3: Open and view the "error_log.txt" file.
+    - Option 4: Clear the contents of the "error_log.txt" file.
+    - Option 5: Reload the student registration process.
+
+### Step 4: Follow the Prompts
+- Depending on your choice, follow the prompts to view, clear, or reload.
+- The program will guide you through the selected option.
+
+### Step 5: Continue or Quit
+- After completing an option, you will be asked if you want to continue.
+- Type 'y' to continue with another option or 'n' to quit the program.
+
+## Big O Notation
+The overall time complexity of the code can be expressed as O(m + n + k), where:
+- "m" depends on the initial user input for class size.
+- "n" depends on user input within the `options()` function.
+- "k" depends on the file sizes involved in file read and write operations.
+
+This code provides an efficient way to manage exam registrations and handle file operations.
+
+---
+
+**Note**: Make sure that the program files, "reg_form.txt" and "error_log.txt," exist in the same directory as the Python script for the program to function correctly.
+
+For any questions or issues, refer to the error logs or seek assistance.
+
+Happy registration!
+
 
 ### Version 2:  [from_kivy_registration.py](https://github.com/stevehud23/student_reg/blob/main/registration/from_kivy_registration.py)
 *   This version contains a basic GUI engineered to show the use of working with.
