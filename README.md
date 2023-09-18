@@ -251,9 +251,8 @@ The Exam Registration App is open-source and released under the [MIT License](LI
 
 Thank you for using the Exam Registration App!
 
-
+<a name="version-3"></a>
  ### GUI version 2.0:  [student_reg_GUI_V2.py](https://github.com/stevehud23/student_reg/blob/main/Student_reg_GUI_V2/student_reg_GUI_V2.py)
-<a name="version-3"></a> 
 *   This version contains an updated GUI engineered for better functionalty.
 *   Basic level GUI creation
 *   OOP's
